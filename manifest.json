@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Panic button",
+    "default_popup": "tabs.html",
+     "default_icon": "icons/panic-img.png"
+  },
+  "description": "A list of methods you can perform on a tab.",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/tabs-tabs-tabs",
+  "manifest_version": 2,
+  "name": "Panic button",
+  "permissions": [
+    "tabs"
+  ],
+  "version": "1.0",
+   "icons": {
+    "48": "icons/panic-img.png"
+  }
+}
